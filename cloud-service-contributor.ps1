@@ -1,5 +1,5 @@
 
-# Create a role for Cloud Service contributors
+# Create a role for Cloud Service contributors based on Classic VM Contributor
 
 $role = Get-AzureRmRoleDefinition "Classic Virtual Machine Contributor"
 $role.Id = $null
