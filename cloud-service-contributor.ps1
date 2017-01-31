@@ -1,5 +1,5 @@
 
-# Create a role for Cloud Service contributors based on Classic VM Contributor
+# Create a role for Cloud Services contributors based on Classic VM Contributor
 
 $role = Get-AzureRmRoleDefinition "Classic Virtual Machine Contributor"
 $role.Id = $null
@@ -11,7 +11,7 @@ $role.AssignableScopes.Clear()
 $role.AssignableScopes.Add("/subscriptions/####")
 New-AzureRmRoleDefinition -Role $role
 
-New-AzureRmRoleAssignment -ObjectId #### -ResourceGroupName cstest-rg -RoleDefinitionName "Cloud Services Contributor"
+#New-AzureRmRoleAssignment -ObjectId #### -ResourceGroupName cstest-rg -RoleDefinitionName "Cloud Services Contributor"
  
 
 
