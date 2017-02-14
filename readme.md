@@ -21,7 +21,7 @@ Here is a diagram of the solution:
 ![Activity Log Monitoring Processes][1]
 
 
-Learn more here - [Activity Log Monitoring](activity-log-monitoring.md)
+Learn more here - [Activity Log Monitoring](activity-log-monitoring/readme.md)
 
 
 
